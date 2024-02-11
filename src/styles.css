@@ -9,7 +9,7 @@
 }
 
 :root {
-  --lightGrey: #979797;
+  --lightGrey: #b1b1b1;
 
   background-color: var(--lightGrey);
 }
@@ -18,3 +18,28 @@ body {
   font-family: Roboto;
 }
 
+nav {
+  background-color: aquamarine;
+}
+
+#home_button {
+  font-size: xx-large;
+}
+
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: blue; */
+}
+.project-list, .todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+.project-item, .todo-item {
+  margin: 10px;
+  cursor: pointer;
+  /* font-family: Roboto; */
+}
+.active {
+  font-weight: bold;
+}
