@@ -1,6 +1,6 @@
 import { TodoItem } from '../logic/TodoItem.js'
 
-class DOMController {
+class TodoDOMController {
   constructor(todoList) {
       this.todoList = todoList;
       this.projectListElement = document.getElementById('project-list');
@@ -66,4 +66,4 @@ class DOMController {
   }
 }
 
-export { DOMController };
+export { TodoDOMController };
