@@ -1,12 +1,12 @@
 import { TodoList } from './code/logic/TodoList.js';
-import { DOMController } from './code/pages/DOMContoller.js';
+import { TodoDOMContoller } from './code/pages/TodoDOMContoller.js';
 import { styles } from './styles.css' // Needed to the CSS file gets included by Webpack.
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('Looks like we are in development mode!');
 }
 
-const domController = new DOMController(new TodoList());
+const TodoDOMContoller = new TodoDOMContoller(new TodoList());
 
 // // Example usage:
 // const todoList = new TodoList();
