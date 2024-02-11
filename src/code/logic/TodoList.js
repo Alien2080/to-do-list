@@ -1,4 +1,4 @@
-import { Project } from './Project';
+import { Project } from './Project.js';
 
 class TodoList {
   constructor() {
@@ -26,4 +26,4 @@ class TodoList {
   }
 }
 
-export { TodoList }
+export { TodoList };

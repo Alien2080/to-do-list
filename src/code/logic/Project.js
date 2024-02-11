@@ -9,4 +9,4 @@ class Project {
   }
 }
 
-export { Project }
+export { Project };

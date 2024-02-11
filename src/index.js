@@ -1,5 +1,5 @@
-import { TodoItem } from './code/logic/TodoItem';
-import { TodoList } from './code/logic/TodoList';
+import { TodoItem } from './code//logic/TodoItem.js';
+import { TodoList } from './code/logic/TodoList.js';
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('Looks like we are in development mode!');
